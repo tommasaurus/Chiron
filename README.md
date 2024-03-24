@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Chiron - AI Mock Interview Assistant
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Inspiration
+The conception of Chiron, the AI mock interview assistant, was ignited by the profound capabilities of groundbreaking AI technologies such as GPT-4 and Gemini. Marveled by the transformative impact these AI tools can have on professional development, we embarked on a journey to devise a tool that personalizes the job interview preparation process, capitalizing on individual experiences and career goals.
 
-## Available Scripts
+## What Chiron Does
+Chiron stands as a beacon for job seekers, offering a cutting-edge AI-driven mock interview experience tailored to your resume and desired job role. It not only allows you to explore job opportunities with its advanced search capabilities but also critically assesses your interview performance, providing valuable feedback on both your answers and emotional engagement.
 
-In the project directory, you can run:
+## How We Built It
+Our toolkit is an amalgam of modern software technologies. Key functionalities are brought to life with libraries such as `face-api.js`, `react-pdf`, and `react-speech-recognition`. We leveraged the Adzuna Job Search API for job indexing and Firebase for user authentication and database services. The core of Chiron—the question generation and interview grading—is powered by OpenAI's API.
 
-### `npm start`
+## Challenges We Faced
+In the whirlwind of our first hackathon, time management was our biggest hurdle. Integrating the face recognition video player was a complex feat, with latency issues adding to the challenge. Ambitious as we were, incorporating a LeetCode environment for technical interviews was a goal we unfortunately could not achieve within the time constraints.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Accomplishments We're Proud Of
+Conceiving and executing an application that seamlessly integrates multiple complex features within a mere 24-hour timeframe is our crowning achievement. We are particularly proud of our agility in turning ideas into fully-fledged functionalities, ensuring a balance between quality and efficiency.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## What We Learned
+The sprint of this hackathon schooled us in rapid development cycles—right from ideation to deployment. We've become adept at making strategic decisions under pressure, evaluating trade-offs, and prioritizing feature implementation to meet critical deadlines.
 
-### `npm test`
+## What's Next for Chiron
+- Enhancing the video player to improve speed and reduce latency.
+- Building a private search index for a customized question bank, augmenting OpenAI-generated questions.
+- Refining OpenAI prompts to elicit even more precise interview questions.
+- Elevating the user interface for an unmatched user experience.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How to Use Chiron
+*Here you can add instructions on how to set up, install, and use Chiron.*
 
-### `npm run build`
+## Contributing
+We welcome contributions! Please see our contributing guidelines for more details.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+*Specify the license under which Chiron is released, if applicable.*
